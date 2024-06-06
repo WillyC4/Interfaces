@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Interfaces.FlexLayout"
+             Title="FlexLayout">
+
+<ScrollView>
+    <FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceAround">
+
+        <FlexLayout Direction="Row" AlignItems="Center">
+                <Image Source="e:\yo\github\interfaces\interfaces\imagen\Azul.png" WidthRequest="50" HeightRequest="50">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="imgFlex" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="Azul" Margin="10,0,0,0"/>
+        </FlexLayout>
+
+        <FlexLayout Direction="Row" AlignItems="Center">
+                <Image Source="e:\yo\github\interfaces\interfaces\imagen\Rojo.png" WidthRequest="50" HeightRequest="50">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="imgFlex" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+            <Label Text="Rojo" Margin="10,0,0,0"/>
+        </FlexLayout>
+
+        <FlexLayout Direction="Row" AlignItems="Center">
+                <Image Source="e:\yo\github\interfaces\interfaces\imagen\Verde.png" WidthRequest="50" HeightRequest="50">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="imgFlex" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+            <Label Text="Verde" Margin="10,0,0,0"/>
+        </FlexLayout>
+
+
+    </FlexLayout>
+    </ScrollView>
+</ContentPage>

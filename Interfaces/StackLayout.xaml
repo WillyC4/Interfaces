@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Interfaces.StackLayout"
+             Title="StackLayout">
+    <VerticalStackLayout>
+        <StackLayout Margin="20" HorizontalOptions="Center">
+            <Label Text="Lorem ipsum" FontSize="10" />
+            <Label Text="dolor sit amet" FontSize="20" />
+            <Label Text="consectetur adipiscing" FontSize="30"/>
+            <Label Text="elit, sed do eiusmod" FontSize="40"/>
+
+            <Button x:Name="FlexLayout"
+                 Text="Ir a Flex Layout" 
+                 Clicked="btnFlexLayout"
+                 HorizontalOptions="Fill" />
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
