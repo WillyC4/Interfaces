@@ -10,7 +10,7 @@
                 JustifyContent="SpaceAround">
 
         <FlexLayout Direction="Row" AlignItems="Center">
-                <Image Source="e:\yo\github\interfaces\interfaces\imagen\Azul.png" WidthRequest="50" HeightRequest="50">
+                <Image Source="~\imagen\Azul.png" WidthRequest="50" HeightRequest="50">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="imgFlex" NumberOfTapsRequired="1" />
                     </Image.GestureRecognizers>
@@ -19,7 +19,7 @@
         </FlexLayout>
 
         <FlexLayout Direction="Row" AlignItems="Center">
-                <Image Source="e:\yo\github\interfaces\interfaces\imagen\Rojo.png" WidthRequest="50" HeightRequest="50">
+                <Image Source="~\imagen\Rojo.png" WidthRequest="50" HeightRequest="50">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="imgFlex" NumberOfTapsRequired="1" />
                     </Image.GestureRecognizers>
@@ -28,7 +28,7 @@
         </FlexLayout>
 
         <FlexLayout Direction="Row" AlignItems="Center">
-                <Image Source="e:\yo\github\interfaces\interfaces\imagen\Verde.png" WidthRequest="50" HeightRequest="50">
+                <Image Source="~\imagen\Verde.png" WidthRequest="50" HeightRequest="50">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="imgFlex" NumberOfTapsRequired="1" />
                     </Image.GestureRecognizers>
